@@ -1,1 +1,1 @@
-https://github.com/Zimbilsky/posmotri_v_okno
+https://github.com/Zimbilsky/posmotri_v_okno.git
