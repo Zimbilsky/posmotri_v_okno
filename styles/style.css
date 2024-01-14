@@ -54,6 +54,7 @@ ol {
   align-items: flex-end;
   gap: 30px;
   inline-size: 100%;
+  margin: -60px 30px 0;
 }
 
 .result {
@@ -70,6 +71,9 @@ ol {
 .result__video {
   inline-size: 100%;
   block-size: 100%;
+  object-fit: cover;
+  object-position: center;
+
 }
 
 .search-form {
@@ -89,7 +93,7 @@ ol {
   color: #fff;
   font-size: 18px;
   font-weight: 400;
-  font-family: Fira Sans Condensed;
+  font-family: inherit;
 }
 
 .search-form__label {
@@ -116,7 +120,7 @@ ol {
 
 .search-form__textfield {
   color: #fff;
-  font-family: Fira Sans Condensed;
+  font-family: inherit;
   font-size: 18px;
   font-weight: 400;
   background-color: transparent;
@@ -147,8 +151,8 @@ ol {
 
 .search-form__pseudo-checkbox {
   display: inline-block;
-  width: 19px;
-  height: 19px;
+  inline-size: 19px;
+  block-size: 19px;
   border: 1px solid #fff;
 }
 
@@ -168,9 +172,9 @@ ol {
 .button {
   background-color: transparent;
   border: 1px solid #fff;
-  width: 194px;
-  height: 34px;
-  font-family: "Fira Sans Condensed", sans-serif;
+  inline-size: 194px;
+  min-block-size: 34px;
+  font-family: inherit;
   font-weight: 700;
   font-size: 18px;
   color: #fff;
@@ -206,7 +210,7 @@ ol {
 .title {
   margin-block-end: 26px;
   color: #fff;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-size: 75px;
   font-style: normal;
   font-weight: 700;
@@ -267,7 +271,7 @@ ol {
 
 .content__video-card-title {
   color: #fff;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
@@ -275,7 +279,7 @@ ol {
 
 .content__video-card-description {
   color: #fff;
-  font-family: Fira Sans Condensed;
+  font-family: inherit;
   font-size: 18px;
   font-weight: 400;
   line-height: 90%;
